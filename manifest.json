@@ -1,5 +1,4 @@
 {
-    "$schema":"https://json.schemastore.org/chrome-manifest",
     "manifest_version": 3,
 
     "name": "Chromium Extension Template Manifest",
@@ -8,25 +7,25 @@
     "description": "A template for chromium extensions development",
     "icons":
     {
-        "16": "",
-        "48": "",
-        "128": "",
-        "256": ""
+        "16": "icons/16x16.png",
+        "48": "icons/48x48.png",
+        "128": "icons/128x128.png",
+        "256": "icons/256x256.png"
     },
 
     "background":
     {
         "service_worker": "background.js",
         "type": "module"
-    },
+    }, 
 
     "action":
     {
         "default_icon":
         {
-            "16": "",
-            "24": "",
-            "32": ""
+            "16": "icons/16x16.png",
+            "24": "icons/24x24.png",
+            "32": "icons/32x32.png"
         },
         "default_title": "Chrome Extension Template Popup",
         "default_popup": "popup/popup.html"

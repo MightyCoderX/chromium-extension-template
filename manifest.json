@@ -1,6 +1,7 @@
 {
     "manifest_version": 3,
 
+    "author": "MightyCoderX",
     "name": "Chromium Extension Template Manifest",
     "short_name": "Template",
     "version": "0.0.1",

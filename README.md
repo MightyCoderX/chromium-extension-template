@@ -2,6 +2,9 @@
 
 A template to create chromium extensions
 
+## Manifest
+See the [docs](https://developer.chrome.com/docs/extensions/mv3/manifest/) for more info
+
 ## Icons 
 To generate the required base icons:
 - go to [https://derivv.com/](https://derivv.com/)

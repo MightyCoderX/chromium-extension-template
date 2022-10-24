@@ -1,0 +1,53 @@
+{
+    "$schema":"https://json.schemastore.org/chrome-manifest",
+    "manifest_version": 3,
+
+    "name": "Chromium Extension Template Manifest",
+    "short_name": "Template",
+    "version": "0.0.1",
+    "description": "A template for chromium extensions development",
+    "icons":
+    {
+        "16": "",
+        "48": "",
+        "128": "",
+        "256": ""
+    },
+
+    "background":
+    {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+
+    "action":
+    {
+        "default_icon":
+        {
+            "16": "",
+            "24": "",
+            "32": ""
+        },
+        "default_title": "Chrome Extension Template Popup",
+        "default_popup": "popup/popup.html"
+    },
+
+    "content_scripts":
+    [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+
+    "web_accessible_resources":
+    [
+        {
+            "resources": ["assets/"],
+            "matches": ["<all_urls>"]
+        }
+    ],
+
+    "permissions": ["storage", "tabs"],
+    "host_permissions": ["<all_urls>"]
+}

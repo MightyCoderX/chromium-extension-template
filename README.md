@@ -3,7 +3,7 @@
 A template to create chromium extensions
 
 ## How To Use
-### Git
+#### Git
 1. Clone repo
     ```bash
     $ git clone https://github.com/MightyCoderX/chromium-extension-template.git
@@ -16,7 +16,7 @@ A template to create chromium extensions
     ```bash
     $ git init
     ```
-### Github CLI
+#### Github CLI
 If you have github cli and would like to directly create a repo based on this template use:
 
 ```bash

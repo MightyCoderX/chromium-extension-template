@@ -1,13 +1,18 @@
-# Chromium Extension Template
-A template to create chromium extensions
+<h3 align="center">Chromium Extension Template</h3>
+<p align="center">All the boilerplate you need to start creating a chromium extension!</p>
+
+<br>
+<br>
 
 ## How To Use
 Follow the below steps to setup an environment for your new chrome extension
 
 <br>
 
-### 1. Clone Template
+### Clone Template
 To create your repo based on this template you can use either git, [GitHub CLI](https://cli.github.com/), or any desktop client you like below I listed the first two ways.
+
+<br>
 
 #### Github CLI (Fastest Method)
 If you have github cli and would like to directly create a repo based on this template use:
@@ -36,8 +41,9 @@ $ gh repo create <new-repo-name> --public --template="https://github.com/MightyC
     ```
 
 <br>
+<br>
 
-### 2. Edit Manifest
+### Edit Manifest
 #### Replace the value of:
 1. `author` with the name you wanna use
 1. `name` with the name of your extension
@@ -60,8 +66,9 @@ To use the icons set the correct paths in the `icons` object
 See the [Chrome Dev Docs](https://developer.chrome.com/docs/extensions/mv3/) for more info about [manifest.json](https://developer.chrome.com/docs/extensions/mv3/manifest/)
 
 <br>
+<br>
 
-### 3. Add To Browser
+### Add To Browser
 
 1. Go to the extensions page of your browser `about://extensions`
 1. Toggle _"Developer Mode"_ on

@@ -18,9 +18,14 @@ A template to create chromium extensions
     ```
 ### Github CLI
 If you have github cli and would like to directly create a repo based on this template use:
-
 ```bash
-$ gh repo create <new-repo-name> --template="https://github.com/MightyCoderX/chromium-extension-template"
+# Private repo
+$ gh repo create <new-repo-name> --private --template="https://github.com/MightyCoderX/chromium-extension-template"
+```
+or
+```bash
+# Public repo
+$ gh repo create <new-repo-name> --public --template="https://github.com/MightyCoderX/chromium-extension-template"
 ```
 
 ## Manifest

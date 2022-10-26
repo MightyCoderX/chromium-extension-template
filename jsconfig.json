@@ -2,5 +2,9 @@
     "typeAcquisition":
     {
         "include": ["chrome"]
+    },
+    "compilerOptions":
+    {
+        "target": "ES2022"
     }
 }

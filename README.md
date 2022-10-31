@@ -66,7 +66,6 @@ To generate the required base icons:
 
 To use the icons set the correct paths in the `icons` object
 ```json
-...
 "icons":
 {
     "16": "icons/16x16.png",
@@ -74,14 +73,11 @@ To use the icons set the correct paths in the `icons` object
     "128": "icons/128x128.png",
     "256": "icons/256x256.png"
 },
-...
 ```
-<br>
 
 #### Next
 See the [Chrome Dev Docs](https://developer.chrome.com/docs/extensions/mv3/) for more info about [manifest.json](https://developer.chrome.com/docs/extensions/mv3/manifest/)
 
-<br>
 <br>
 
 ### Add To Browser
@@ -92,9 +88,6 @@ See the [Chrome Dev Docs](https://developer.chrome.com/docs/extensions/mv3/) for
 1. Navigate to the `src` folder (the one which has manifest.json as a direct child)
 1. Select the folder
 1. Every time you make a change reload your extensions using the button displayed in it's card
-
-<br>
-<br>
 
 ### Package Extension
 Run `package.bat` to package the extension into a `.crx` file that can be uploaded to the store

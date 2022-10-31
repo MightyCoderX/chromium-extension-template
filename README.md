@@ -26,18 +26,22 @@ or
 $ gh repo create <new-repo-name> --public --template="https://github.com/MightyCoderX/chromium-extension-template"
 ```
 
+Then clone the created repo
+<br>
+<br>
+
 #### Git
 1. Clone repo
     ```bash
-    $ git clone https://github.com/MightyCoderX/chromium-extension-template.git
+    git clone https://github.com/MightyCoderX/chromium-extension-template.git
     ```
 1. Delete .git folder
     ```bash
-    $ rm -rf .git
+    rm -rf .git
     ```
 1. Initialize new repo if you need one
     ```bash
-    $ git init
+    git init
     ```
 
 <br>
@@ -56,11 +60,23 @@ To generate the required base icons:
 1. Select a base, square, image which dimensions should be at least 256x256
 1. Import [`icons-config.csv`](./icons-config.csv) by clicking on import config and selecting the file
 1. Click on _"Create Derivative Images"_ to generate the icons
-1. Move the images to your icons folder
+1. Download all of the icons
+1. Move the icons in the `src/icons` folder
 1. Delete [`icons-config.csv`](./icons-config.csv) file when you are done
-1. Move the icons in the `icons` folder
 
 To use the icons set the correct paths in the `icons` object
+```json
+...
+"icons":
+{
+    "16": "icons/16x16.png",
+    "48": "icons/48x48.png",
+    "128": "icons/128x128.png",
+    "256": "icons/256x256.png"
+},
+...
+```
+<br>
 
 #### Next
 See the [Chrome Dev Docs](https://developer.chrome.com/docs/extensions/mv3/) for more info about [manifest.json](https://developer.chrome.com/docs/extensions/mv3/manifest/)
@@ -73,9 +89,15 @@ See the [Chrome Dev Docs](https://developer.chrome.com/docs/extensions/mv3/) for
 1. Go to the extensions page of your browser `about://extensions`
 1. Toggle _"Developer Mode"_ on
 1. Click on _"Load unpacked"_
-1. Navigate to the root folder of your extension (the one which has manifest.json as a direct child)
+1. Navigate to the `src` folder (the one which has manifest.json as a direct child)
 1. Select the folder
 1. Every time you make a change reload your extensions using the button displayed in it's card
+
+<br>
+<br>
+
+### Package Extension
+Run `package.bat` to package the extension into a `.crx` file that can be uploaded to the store
 
 <br>
 <br>

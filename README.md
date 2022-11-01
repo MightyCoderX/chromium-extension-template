@@ -89,6 +89,10 @@ See the [Chrome Dev Docs](https://developer.chrome.com/docs/extensions/mv3/) for
 1. Select the folder
 1. Every time you make a change reload your extensions using the button displayed in it's card
 
+![image](https://user-images.githubusercontent.com/36588044/199303537-14458507-1ebe-453b-af95-3cb96ce33ab7.png)
+
+
+
 ### Package Extension
 Run `package.bat` to package the extension into a `.crx` file that can be uploaded to the store
 

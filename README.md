@@ -89,8 +89,7 @@ See the [Chrome Dev Docs](https://developer.chrome.com/docs/extensions/mv3/) for
 1. Select the folder
 1. Every time you make a change reload your extensions using the button displayed in it's card
 
-![image](https://user-images.githubusercontent.com/36588044/199303537-14458507-1ebe-453b-af95-3cb96ce33ab7.png)
-
+![image](https://user-images.githubusercontent.com/36588044/199308355-4f12c6c5-633e-4774-8df8-d1ce22b4af9a.png)
 
 
 ### Package Extension

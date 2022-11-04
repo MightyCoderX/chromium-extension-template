@@ -11,12 +11,16 @@ html, body
 {
     width: 300px;
     height: 400px;
-    background-color: #181818;
+    background-color: #181822;
     color: #ddd;
+}
+
+.container
+{
+    padding: 1.5em;
 }
 
 h1
 {
     text-align: center;
-    margin-top: 1rem;
 }

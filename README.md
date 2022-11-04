@@ -93,7 +93,7 @@ See the [Chrome Dev Docs](https://developer.chrome.com/docs/extensions/mv3/) for
 
 
 ### Package Extension
-Run `package.bat` which generates both the `.crx` which is the extension in a binary format and the `.pem` key file, that are needed to upload the extension to the store
+Run `package.bat` that generates both the `.crx` which is the extension in a binary format and the `.pem` key file. Both of them are needed to upload the extension to the store.
 
 <br>
 <br>

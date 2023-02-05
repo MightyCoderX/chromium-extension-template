@@ -48,6 +48,6 @@
         }
     ],
 
-    "permissions": ["storage", "tabs"],
+    "permissions": ["storage", "tabs", "tabGroups"],
     "host_permissions": ["<all_urls>"]
 }

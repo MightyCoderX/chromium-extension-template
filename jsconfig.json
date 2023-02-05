@@ -6,6 +6,5 @@
     "compilerOptions":
     {
         "target": "ESNext",
-        
     }
 }
